@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Syncfusion.SfImageEditor.XForms.iOS;
 using UIKit;
 
 namespace ImageEditor_GettingStarted.iOS
@@ -23,8 +24,9 @@ namespace ImageEditor_GettingStarted.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            SfImageEditorRenderer.Init();
             LoadApplication(new App());
-            Syncfusion.SfImageEditor.XForms.iOS.SfImageEditorRenderer.Init();
+
             return base.FinishedLaunching(app, options);
         }
     }

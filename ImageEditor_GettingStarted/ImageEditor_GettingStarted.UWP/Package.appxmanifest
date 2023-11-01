@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="56dbcc0e-58ef-404c-a67e-ba2284deee23"
-    Publisher="CN=bf28823f-5f3a-4cd9-bfc6-d516d596f5b2"
+    Name="597AFFEB-AA6B-41F4-A832-05D0F82B91F9"
+    Publisher="CN=B1419DF3-F958-4EED-BB5B-0EBAC5A639C0"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>ImageEditor_GettingStarted.UWP</DisplayName>
-    <PublisherDisplayName>bf28823f-5f3a-4cd9-bfc6-d516d596f5b2</PublisherDisplayName>
+    <PublisherDisplayName>B1419DF3-F958-4EED-BB5B-0EBAC5A639C0</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

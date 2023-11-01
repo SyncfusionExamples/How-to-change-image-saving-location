@@ -1,6 +1,5 @@
-using System;
+﻿using System;
 using System.IO;
-using System.Threading.Tasks;
 using UIKit;
 
 [assembly: Xamarin.Forms.Dependency(typeof(ImageEditor_GettingStarted.iOS.DependencyImplementation))]

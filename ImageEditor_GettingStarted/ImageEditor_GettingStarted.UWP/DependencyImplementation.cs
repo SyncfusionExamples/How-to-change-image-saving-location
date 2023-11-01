@@ -1,19 +1,11 @@
 ﻿using Syncfusion.SfImageEditor.XForms;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using System.Text;
-using System.Threading.Tasks;
-using Windows.ApplicationModel.DataTransfer;
 using Windows.Graphics.Imaging;
-using Windows.Storage;
-using Windows.Storage.Pickers;
 using Windows.Storage.Streams;
-using Windows.UI.Xaml.Controls;
+using Windows.Storage;
 using Windows.UI.Xaml.Media.Imaging;
-using Xamarin.Forms;
+using System.Runtime.InteropServices.WindowsRuntime;
 
 [assembly: Xamarin.Forms.Dependency(typeof(ImageEditor_GettingStarted.UWP.DependencyImplementation))]
 namespace ImageEditor_GettingStarted.UWP

@@ -1,19 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using Android.Content;
 using Android.Graphics;
-using System.IO;
-
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
-using Android.Provider;
-using Syncfusion.SfImageEditor.XForms;
-using System.Threading.Tasks;
+using System.IO;
 
 [assembly: Xamarin.Forms.Dependency(typeof(ImageEditor_GettingStarted.Droid.DependencyImplementation))]
 namespace ImageEditor_GettingStarted.Droid
@@ -45,6 +33,7 @@ namespace ImageEditor_GettingStarted.Droid
                 RealPath = "/storage/emulated/0/" + OriginalPath;
                 Save();
             };
+
             str = stream;
             Toast.MakeText(activity, "Image has been saved into" + RealPath, ToastLength.Short).Show();
         }
